@@ -8,17 +8,50 @@
 
 .navbar {
   background-color: black;
-  color: blanchedalmond;
+  color: #ffebcd;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
+  justify-content: space-evenly;
 }
 
-.container {
+.navbar button {
+  background-color: #ffebcd;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.navbar button:hover {
+  background: #fdd300;
+  color: #ffebcd;
+  border: 2px solid #ffebcd;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+.secao_inf {
+  padding-top: 30px;
   display: flex;
+  text-align: justify;
 }
 
-.container img {
+.secao_inf img {
   width: 800px;
   height: 500px;
+}
+
+.informacoes {
+  padding: 60px;
+}
+
+.informacoes p {
+  color: #fdd300;
+  text-align: justify;
 }
