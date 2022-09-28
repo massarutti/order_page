@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RM - Sistemas / Ordem de serviço.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <h1>ordem de serviço</h1>
+      <nav>
+        <button>consultar</button>
+        <button>incluir</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <img src="./001.jpeg" alt="Fundo Page Order" />
+      <section class="container_section">
+        <h2>o.s. numero:</h2>
+        <form action="">
+          <div>
+            <label for="nome">Nome</label><br />
+            <input
+              type="text"
+              id="nome"
+              placeholder="Digite seu nome completo."
+              required
+            />
+            <br />
+            <label for="contato">Telefone</label><br />
+            <input
+              type="text"
+              id="contato"
+              placeholder="Digite seu telefone."
+              required
+            />
+            <br />
+            <label for="email">e-mail</label> <br />
+            <input type="email" id="email" placeholder="Digite seu e-mail." />
+            <br />
+            <label for="tp_equip">Tipo</label> <br />
+            <select name="" id="tp_equip">
+              <option value="#">Selecione...</option>
+              <option value="notebook">Notebook</option>
+              <option value="smartphone">Smartphone</option>
+              <option value="placa">Placa</option>
+              <option value="tv">Tv</option>
+              <option value="multimedia">Multimedia</option>
+            </select>
+            <br />
+            <label for="descricao_ent">Observações: </label> <br />
+            <textarea
+              name="descricao_ent"
+              id="descricao_ent"
+              cols="50"
+              rows="10"
+            ></textarea>
+            <br />
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+
+      <section></section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
