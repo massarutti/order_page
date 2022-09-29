@@ -15,6 +15,11 @@
   justify-content: space-evenly;
 }
 
+.navbar_link {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar button {
   background-color: #ffebcd;
   font-size: 20px;
@@ -24,7 +29,7 @@
 }
 
 .navbar button:hover {
-  background: #fdd300;
+  background: #ffc700;
   color: #ffebcd;
   border: 2px solid #ffebcd;
   border-radius: 20px;
@@ -37,7 +42,8 @@
 }
 
 .secao_inf {
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
   text-align: justify;
 }
@@ -48,10 +54,58 @@
 }
 
 .informacoes {
-  padding: 60px;
+  padding: 80px;
 }
 
 .informacoes p {
-  color: #fdd300;
+  color: #ffc700;
   text-align: justify;
+}
+
+.container {
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 500px;
+  height: 500px;
+  background-color: #ffc700;
+}
+
+.container_section input,
+select {
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.container_section h2 {
+  text-align: center;
+}
+.container_form {
+  padding: 30px;
+  text-align: center;
+}
+
+.container_form input,
+select,
+textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin-top: 50px;
+  padding: 5px;
+  color: #ffebcd;
+}
+
+.rodape img {
+  padding-left: 10px;
+  padding-right: 30px;
+  width: 40px;
 }
